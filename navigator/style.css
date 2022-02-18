@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navigator{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0; 
+    background: #7f5af0;
+}
+
+.navigator a{
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 14px;
+}

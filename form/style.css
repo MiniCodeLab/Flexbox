@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-list {
+  background-color: #7f5af0;
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+}
+
+.form-list li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+}
+
+.form-list li > label {
+  padding: 0.5em 1em 0.5em 0;
+  flex: 1;
+}
+
+.form-list li > input {
+  flex: 2;
+}
+
+.form-list li > input,
+li > button {
+  padding: 0.5em;
+}
+
+.form-list button {
+    text-transform: uppercase;
+  background: #00b779;
+  color: white;
+  border: 0;
+}
