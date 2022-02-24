@@ -9,23 +9,18 @@
   </head>
   <body>
     <form>
-      <ul class="form-list">
-        <li>
-          <label for="name">Name</label>
-          <input type="text" id="name" />
-        </li>
-        <li>
-          <label for="location">Location</label>
-          <input type="text" id="location" />
-        </li>
-        <li>
-          <label for="email">Email</label>
+      <fieldset class="form-list">
+        <legend>Form</legend>
+        <label for="name"> Name <input type="text" id="name" /></label>
+        <label for="location"
+          >Location <input type="text" id="location"
+        /></label>
+        <label for="email"
+          >Email
           <input type="email" id="email" />
-        </li>
-        <li>
-          <button type="submit">Submit</button>
-        </li>
-      </ul>
+        </label>
+        <button type="submit">Submit</button>
+      </fieldset>
     </form>
   </body>
 </html>
